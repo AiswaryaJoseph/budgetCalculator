@@ -1,0 +1,162 @@
+body{
+    background: linear-gradient(grey,lightblue,white);
+}
+body button{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+
+}
+body p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+.nav{
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction: column; */
+    /* background-image: linear-gradient(to bottom right, rgb(193, 197, 216) , rgba(0, 179, 255, 0)); */
+    border-bottom: 3px solid rgba(0, 0, 0, 0.301) ;
+    background-color: darkgrey;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.6);
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 40px;
+    color: rgb(40, 68, 162);
+
+    /* background-color: aqua; */
+}
+.nav-left img{
+    width: 40px;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.438); */
+}
+.nav-left h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-right{
+    margin-top: 20px;
+    
+}
+.nav-right button{
+    background-color: rgb(40, 68, 162);
+}
+.nav-right button:hover{
+    background-color: rgb(29, 52, 127);
+
+}
+
+.income{
+    background-color:rgb(90, 146, 90);
+    border-radius: 35px;
+    padding: 30px;
+   
+
+}
+.income input{
+    /* height: 30px; */
+    background-color: rgba(255, 255, 255, 0.868);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+.income button{
+    background-image: linear-gradient(to  right, rgba(0, 0, 255, 0.482) , rgba(0, 72, 130, 0.737));
+    color: white;
+    border-color: blueviolet;
+   
+}
+.income button:hover{
+    background-color:rgb(10, 114, 52);
+}
+
+.screen{
+    background-color:black;
+    border-radius: 35px;
+    padding: 30px;
+    color:black;
+    /* border: 2px solid red */
+    
+} 
+.screen input{
+    border-radius: 10px;
+    border: 0px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:black ;
+}
+.expense{
+    /* border: 1px solid rgb(249, 246, 246); */
+    background-color: rgb(218, 54, 86);
+    border-radius: 35px;
+       padding: 30px;
+    
+
+}
+.expense input{
+    /* height: 30px; */
+    background-color: rgba(255, 255, 255, 0.868);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.expense button{
+    background-image: linear-gradient(to  right, rgba(0, 0, 255, 0.482) , rgba(0, 72, 130, 0.737));
+    color: white;
+    border-color: blueviolet;
+   
+}
+.expense button:hover{
+    background-color:rgba(255, 0, 0, 0.822);
+}
+
+.second-main{
+    font-weight: 600;
+    
+    
+}
+.second-main h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.second-main h4{
+    font-family: 'Raleway', sans-serif;
+
+}
+.tables{
+    display: flex;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+/* table{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+} */
+.remove-btn{
+    background-color: rgb(77, 66, 66);
+    margin-top: 40px;
+}
+.remove-btn:hover{
+    background-color: rgba(0, 0, 0, 0.87);
+   
+}
